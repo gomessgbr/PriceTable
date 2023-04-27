@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 :root {
   --color-gray-50: #f8fafc;
   --color-gray-100: #f1f5f9;
@@ -69,13 +68,6 @@ section .inner {
   font-weight: 700;
   font-size: 24px;
   line-height: 37px;
-
-  color: var(--color-gray-800);
-}
-
-.price {
-  font-size: 18px;
-  line-height: 27px;
 
   color: var(--color-gray-800);
 }
@@ -162,7 +154,6 @@ li i.ph-info {
   padding-top: 32px;
   margin-top: 32px;
 }
-
 section.best {
   margin-top: 16px;
   position: relative;
@@ -201,6 +192,12 @@ section.best::before {
 }
 
 .inner p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: var(--color-purple-100);
 }
 
@@ -208,7 +205,6 @@ button.secondary {
   background-color: var(--color-purple-100);
   color: var(--color-white);
 }
-
 button.secondary:hover {
   background-color: var(--color-purple-200);
 }
@@ -225,7 +221,8 @@ button.secondary:hover {
   color: var(--color-gray-500);
 }
 
-/*transition animation*/
+/* transition animation */
+
 section .inner:hover {
   border-color: var(--color-purple-100);
 }
